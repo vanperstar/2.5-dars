@@ -1,0 +1,31 @@
+.header{
+    padding-top: 45px;
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_logo{
+        display: block;
+    }
+    
+    &_nav{
+        list-style: none;
+        display: flex;
+        &_item{
+            margin-right: 30px;
+        }
+        &_link{
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            color: #83888F;
+        }
+    }
+}

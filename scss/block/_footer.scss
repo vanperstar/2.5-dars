@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    background: #2C343E;
+    align-items: center;
+    &_logo{
+        padding: 40px 0;
+    }
+
+    &_nav{
+        margin-left: 90px;
+        list-style: none;
+        display: flex;
+        &_item{
+            margin-right: 20px;
+        }
+
+        &_link{
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            color: #83888F;
+        }
+    }
+
+    &_twitter{
+        text-decoration: none;
+        margin-left: 300px;
+        &_img{
+            margin-right: 15px;
+            
+        }
+    }
+}

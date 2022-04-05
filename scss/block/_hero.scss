@@ -1,0 +1,21 @@
+.hero{
+    background: url(../../img/about.png);
+    font-family: 'Fraunces', serif;
+    width: 1280px;
+    height: 450px;
+    &_title{
+        padding-top: 100px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+    &_description{
+        padding-top: 20px;
+        width: 405px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}

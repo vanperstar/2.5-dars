@@ -1,0 +1,28 @@
+.block{
+    margin-top: 150px;
+    display: flex;
+    &_img{
+        margin-right: 120px;
+        width: 330px;
+        height: 450px;
+    }
+    &_our{
+        margin-top: 30px;
+        &_title{
+            padding-bottom: 30px;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #333D4B;
+        }
+        &_description{
+            width: 490px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
