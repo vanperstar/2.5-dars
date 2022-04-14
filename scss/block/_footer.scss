@@ -34,3 +34,24 @@
         }
     }
 }
+
+@media screen and (max-width: 575px) {
+    .footer{
+        text-align: center;
+        flex-direction: column;
+        width: 450px;
+        height: 380px;
+
+        &_nav{
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+            &_item{
+                margin-bottom: 30px;
+            }
+        }
+        &_twitter{
+            margin: auto;
+        }
+    }
+}

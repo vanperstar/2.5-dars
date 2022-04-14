@@ -35,3 +35,38 @@
         height: 374px;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .content{
+        width: 450px;
+        height: 770px;
+        margin-top: 300px;
+        flex-direction: column;
+        &_quality{
+            width: 450px;
+            &_title{
+                width: 420px;
+                margin-top: 160px;
+                text-align: center;
+            }
+            &_description{
+                margin-top: 60px;
+                text-align: center;
+                width: 420px;
+                font-size: 15px;
+                line-height: 25px;
+                font-size: 24px;
+                line-height: 40px;
+            }
+        }
+
+        &_img{
+            background-size: cover;
+            border-radius: 8px;
+            order: 1;
+            width: 440px;
+            height: 256px;
+            transform: rotateY(15deg) translateX(-19px) translateY(-790px) ;
+        }
+    }
+}

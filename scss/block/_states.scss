@@ -104,3 +104,28 @@
         }
     }
 }
+
+@media screen and (max-width: 575px) {
+    .states{
+        text-align: center;
+        margin-left: auto;
+        &_location{
+            flex-direction: column;
+
+            &_kingdom{
+                margin-bottom: 50px;
+                margin-right: auto;
+                margin-left: 80px;
+            }
+            &_canada{
+                margin-bottom: 50px;
+                margin-right: auto;
+                margin-left: 150px;
+            }
+            &_australia{
+                margin-right: auto;
+                margin-left: 150px;
+            }
+        }
+    }
+}
